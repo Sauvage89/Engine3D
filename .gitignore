@@ -1,0 +1,26 @@
+# Visual Studio
+.vscode/
+*.sln
+*.vcxproj*
+*.user
+*.pdb
+*.ilk
+*.obj
+*.tlog
+*.log
+*.lastbuildstate
+
+# CMake
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Executables
+*.exe
+*.dll
+*.lib
+
+# OS
+.DS_Store
+Thumbs.db
