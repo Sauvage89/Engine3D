@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\2-Projet\2-VisualStudioCode\4-3dEngine\V4\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\2-Projet\2-VisualStudioCode\4-3dEngine\V4\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{484FCF08-EE64-39DD-A1BB-52D682D340FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

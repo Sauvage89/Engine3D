@@ -1,0 +1,10 @@
+^D:\2-PROJET\2-VISUALSTUDIOCODE\4-3DENGINE\V4\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/2-Projet/2-VisualStudioCode/4-3dEngine/V4 -BD:/2-Projet/2-VisualStudioCode/4-3dEngine/V4/build --check-stamp-file D:/2-Projet/2-VisualStudioCode/4-3dEngine/V4/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
