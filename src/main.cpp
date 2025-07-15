@@ -6,12 +6,12 @@ const char CLASS_NAME[] = "FenetreWin32";
 // Fonction de traitement des messages (callback)
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
+    int a =5;
     switch (uMsg)
     {
         case WM_DESTROY:
             PostQuitMessage(0);
             return 0;
-
         case WM_PAINT:
             PAINTSTRUCT ps;
             HDC hdc = BeginPaint(hwnd, &ps);
